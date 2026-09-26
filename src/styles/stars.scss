@@ -15,10 +15,6 @@
     }
   }
 
-  &--0 &__star {
-    background-image: url('../images/star.svg');
-  }
-
   &--1 &__star:nth-child(-n + 1),
   &--2 &__star:nth-child(-n + 2),
   &--3 &__star:nth-child(-n + 3),
