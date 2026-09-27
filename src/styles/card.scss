@@ -6,7 +6,7 @@
   padding: 33px 17px 17px;
   background-color: $color-white;
   border: 1px solid $color-border;
-  border-radius: 5px;
+  border-radius: 4px;
   font-family: $font-family-base;
 
   &__img {
@@ -56,7 +56,7 @@
   }
 
   &__reviews {
-    font-size: 11px;
+    font-size: 10px;
     color: $color-code;
   }
 
@@ -69,13 +69,18 @@
     color: $color-white;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 11px;
+    font-size: 14px;
     font-weight: 700;
-    border-radius: 4px;
+    border-radius: 5px;
     cursor: pointer;
 
+    border: 1px solid transparent;
+    box-sizing: border-box;
+
     &:hover {
-      background-color: color.adjust($color-accent, $lightness: -10%);
+      background-color: transparent;
+      border: 2px solid #00acff;
+      color: #00acff;
     }
   }
 }
